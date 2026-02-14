@@ -42,3 +42,6 @@ if uploaded_file is not None:
         st.success(f"Tumor Detected: {predicted_class}")
     
     st.write(f"Confidence: {confidence:.2f}")
+    st.write("Raw Prediction:", prediction)
+
+
